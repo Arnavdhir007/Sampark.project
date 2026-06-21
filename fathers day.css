@@ -700,60 +700,60 @@ footer p {
 
 }
 
-.dad-popup-content{
+.dad-popup-content {
 
-    background:white;
+    background: white;
 
-    width:500px;
+    width: 500px;
 
-    max-width:90%;
+    max-width: 90%;
 
-    padding:35px;
+    padding: 35px;
 
-    border-radius:20px;
+    border-radius: 20px;
 
-    text-align:center;
+    text-align: center;
 
-    position:relative;
+    position: relative;
 
-    box-shadow:0 0 30px rgba(0,0,0,.2);
-
-}
-
-.dad-close{
-
-    position:absolute;
-
-    top:15px;
-
-    right:20px;
-
-    font-size:28px;
-
-    font-weight:bold;
-
-    cursor:pointer;
-
-    color:#555;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
 
 }
 
-.dad-close:hover{
+.dad-close {
 
-    color:red;
+    position: absolute;
+
+    top: 15px;
+
+    right: 20px;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    color: #555;
 
 }
 
-.dad-popup-content h2{
+.dad-close:hover {
 
-    margin-bottom:20px;
+    color: red;
 
 }
 
-.dad-popup-content p{
+.dad-popup-content h2 {
 
-    font-size:18px;
+    margin-bottom: 20px;
 
-    line-height:1.8;
+}
+
+.dad-popup-content p {
+
+    font-size: 18px;
+
+    line-height: 1.8;
 
 }
