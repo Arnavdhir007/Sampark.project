@@ -29,10 +29,10 @@ window.addEventListener("load", function () {
     }, 8000);
 });
 
-function openDadPopup() {
-    document.getElementById("dadPopup").style.display = "flex";
+function openpapaPopup() {
+    document.getElementById("papaPopup").style.display = "flex";
 }
 
-function closeDadPopup() {
-    document.getElementById("dadPopup").style.display = "none";
+function closepapaPopup() {
+    document.getElementById("papaPopup").style.display = "none";
 }
