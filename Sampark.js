@@ -36,3 +36,11 @@ function openpapaPopup() {
 function closepapaPopup() {
     document.getElementById("papaPopup").style.display = "none";
 }
+
+function openVideoPopup() {
+    document.getElementById("videoPopup").style.display = "flex";
+}
+
+function closeVideoPopup() {
+    document.getElementById("videoPopup").style.display = "none";
+}
