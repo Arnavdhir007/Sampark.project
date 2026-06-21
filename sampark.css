@@ -847,3 +847,87 @@ footer p {
     line-height: 1.8;
 
 }
+
+.video-surprise {
+
+    padding: 100px 20px;
+
+    text-align: center;
+
+    background: white;
+}
+
+.video-surprise h2 {
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+}
+
+.video-surprise p {
+
+    font-size: 24px;
+
+    margin-bottom: 30px;
+}
+
+.video-surprise button {
+
+    background: #ffd700;
+
+    border: none;
+
+    padding: 18px 40px;
+
+    border-radius: 15px;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.video-surprise button:hover {
+
+    transform: scale(1.08);
+
+    box-shadow: 0 0 20px gold;
+}
+
+.video-popup-content {
+
+    background: white;
+
+    width: 900px;
+
+    max-width: 90%;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.video-popup-content video {
+
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.video-close {
+
+    position: absolute;
+
+    top: 10px;
+
+    right: 20px;
+
+    font-size: 35px;
+
+    cursor: pointer;
+}
