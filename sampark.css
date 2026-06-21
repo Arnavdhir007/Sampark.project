@@ -901,33 +901,52 @@ footer p {
 
     background: white;
 
-    width: 900px;
+    width: 450px;
 
     max-width: 90%;
 
-    padding: 20px;
+    padding: 15px;
 
     border-radius: 20px;
 
     position: relative;
+
+    text-align: center;
+
 }
 
 .video-popup-content video {
 
     width: 100%;
 
-    border-radius: 15px;
-}
+    max-height: 500px;
 
+    object-fit: contain;
+
+    border-radius: 15px;
+
+}
 .video-close {
 
     position: absolute;
 
-    top: 10px;
+    top: 8px;
 
-    right: 20px;
+    right: 15px;
 
     font-size: 35px;
 
+    font-weight: bold;
+
     cursor: pointer;
+
+    color: #444;
+
+    z-index: 10000;
+}
+
+.video-close:hover {
+
+    color: red;
+
 }
