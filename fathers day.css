@@ -674,7 +674,7 @@ footer p {
 
 }
 
-.dad-values {
+.papa-values {
 
     padding: 100px 20px;
 
@@ -684,7 +684,7 @@ footer p {
 
 }
 
-.dad-values h2 {
+.papa-values h2 {
 
     font-size: 55px;
 
@@ -790,7 +790,7 @@ footer p {
 
 }
 
-.dad-popup-content {
+.papa-popup-content {
 
     background: white;
 
@@ -810,7 +810,7 @@ footer p {
 
 }
 
-.dad-close {
+.papa-close {
 
     position: absolute;
 
@@ -828,19 +828,19 @@ footer p {
 
 }
 
-.dad-close:hover {
+.papa-close:hover {
 
     color: red;
 
 }
 
-.dad-popup-content h2 {
+.papa-popup-content h2 {
 
     margin-bottom: 20px;
 
 }
 
-.dad-popup-content p {
+.papa-popup-content p {
 
     font-size: 18px;
 
