@@ -32,6 +32,21 @@ body {
 #loader h1 {
     text-shadow: 0px 0px 10px white, 0px 0px 20px #fffd7a, 0px 0px 40px #fbff1b;
     animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 /* HERO */
 
