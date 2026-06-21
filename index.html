@@ -219,6 +219,20 @@
 
     </section>
 
+    <section class="video-surprise">
+
+    <h2>🎁 One Last Surprise...</h2>
+
+    <p>
+        Dad, there's one more thing I'd like to say.
+    </p>
+
+    <button onclick="openVideoPopup()">
+        💛 Click Here Dad 💛
+    </button>
+
+</section>
+    
     <section class="final-thanks">
     
         <h1>❤️ Thank You For Everything Dad ❤️</h1>
@@ -316,6 +330,25 @@
 
     <script src="fathers day.js"></script>
 
+<div class="popup" id="videoPopup">
+
+    <div class="video-popup-content">
+
+        <span class="video-close"
+        onclick="closeVideoPopup()">
+            &times;
+        </span>
+
+        <video controls autoplay>
+
+            <source src="dad-message.mp4" type="video/mp4">
+
+        </video>
+
+    </div>
+
+</div>
+    
 </body>
 
 </html>
