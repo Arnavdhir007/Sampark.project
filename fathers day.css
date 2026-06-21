@@ -700,30 +700,60 @@ footer p {
 
 }
 
-.dad-award {
+.dad-popup-content{
 
-    margin-top: 30px;
+    background:white;
 
-    background: #ffd700;
+    width:500px;
 
-    border: none;
+    max-width:90%;
 
-    padding: 15px 35px;
+    padding:35px;
 
-    border-radius: 12px;
+    border-radius:20px;
 
-    font-size: 20px;
+    text-align:center;
 
-    font-weight: bold;
+    position:relative;
 
-    cursor: pointer;
+    box-shadow:0 0 30px rgba(0,0,0,.2);
 
 }
 
-.dad-award:hover {
+.dad-close{
 
-    transform: scale(1.05);
+    position:absolute;
 
-    box-shadow: 0 0 20px gold;
+    top:15px;
+
+    right:20px;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    color:#555;
+
+}
+
+.dad-close:hover{
+
+    color:red;
+
+}
+
+.dad-popup-content h2{
+
+    margin-bottom:20px;
+
+}
+
+.dad-popup-content p{
+
+    font-size:18px;
+
+    line-height:1.8;
 
 }
